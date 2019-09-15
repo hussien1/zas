@@ -1,0 +1,17 @@
+.info>div,.info-two>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start
+}
+.account-info form{
+    display: flex
+}
+.Summary {
+    display: flex;
+}
+.account-info form .info-two {
+    width: 50%;
+}
+.account-info form .Summary{
+    width: 100%
+}

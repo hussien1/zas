@@ -1,0 +1,41 @@
+.account-info form .infoTwo {
+    width: 50%;
+    align-items: flex-start;
+}
+
+.nameinarabic input {
+    direction: rtl
+}
+
+.country,
+.state,
+.zip {
+    padding: 0!important
+}
+
+.account-info form .adress-inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 0
+}
+
+select {
+    width: 90%!important;
+    border-bottom: 1px solid #ccc!important;
+}
+
+.adress2 {
+    height: 22px!important;
+}
+
+.info>div,
+.infoTwo>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start
+}
+
+input[type="url"] {
+    width: 100%;
+    padding: 0 16px
+}

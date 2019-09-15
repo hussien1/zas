@@ -1,0 +1,126 @@
+.services-data-container {
+  height: calc(100% - 50px);
+  background-color: #e0e0e0;
+  overflow: auto;
+}
+.services-data-wrapper {
+	padding: 64px 16px;
+}
+.welcome-user p {
+	padding-top: 16px;
+	color: #484848;
+}
+.services-items-container {
+	padding: 64px 0px;
+}
+.services-items-wrapper {
+
+}
+.services-item {
+	position: relative;
+	width: calc(25% - 21px);
+	background-color: #fff;
+	box-shadow: 0 2px 8px 0 rgba(0,0,0,.15);
+	cursor: pointer;
+	transition: .25s ease-in;
+	margin-right: 28px;
+	margin-bottom: 28px;
+}
+
+.services-item:hover {
+	box-shadow: -2px 8px 22px 0 rgba(0,0,0,.15);
+}
+.services-data {
+	padding: 32px 22px;
+	text-align: center;
+}
+.item-line {
+	height: 7px;
+	width: 100%;
+	position: absolute;
+	top: 0;
+}
+.services-title h3 {
+	padding-bottom: 8px;
+}
+
+.services-data p {
+	font-size: 0.9em;
+	position: relative;
+	max-height: 42px;
+	overflow: hidden;
+}
+.services-data p:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 25%;
+	height: 1.2rem;
+	background: linear-gradient(90deg,hsla(0,0%,100%,0),#fff 75%);
+}
+.account-item .item-line {
+	background-color: #344d5b;
+}
+.projects-item .item-line {
+	background-color: #dd594e;
+}
+.hr-item .item-line {
+	background-color: #57687d;
+}
+.settings-item .item-line {
+	background-color: #c7cac7;
+}
+.events-item .item-line {
+	background-color: #5e81c3;
+}
+.inventory-item .item-line {
+	background-color: #edd9a6;
+}
+.bank-item .item-line {
+	background-color: #fe6f58;
+}
+.purchase-item .item-line {
+	background-color: #de584d;
+}
+
+
+@media (min-width: 993px) {
+	.services-item:nth-child(4n+0) {
+		margin-right: 0px;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+	.services-item {
+		width: calc(33.3% - 20px);
+		margin-right: 30px;
+	}
+	.services-item:nth-child(3n+0) {
+		margin-right: 0px;
+	}
+}
+@media (max-width: 768px) {
+	.user-data .user-name {
+		display: none;
+	}
+	.user-data .user-img {
+		margin-right: 8px;
+	}
+}
+@media (min-width: 569px) and (max-width: 768px) {
+	.services-item {
+		width: calc(50% - 10px);
+		margin-right: 20px;
+	}
+	.services-item:nth-child(2n+0) {
+		margin-right: 0px;
+	}
+}
+@media (max-width: 568px) {
+	.services-item {
+		width: 100%;
+		margin-right: 0px;
+	}
+	
+}

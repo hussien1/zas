@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>add new items</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/flatpickr.min.css">
+    <link rel="stylesheet" href="css/mainStyle.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/add-new.css">
+    <link rel="stylesheet" href="css/custome.css">
+</head>
+
+<body>
+        <section class="top-nav-container mainBgColor">
+                <div class="top-nav-wrapper flexBetween">
+                    <div class="left-nav-wrapper flexCenter">
+                        <div class="landingDashboard-icon flexCenter">
+                            <a href="index.html"><img src="img/logo.png"></a>
+                        </div>
+                        <div class="dymanic-services-name">
+                            <h4>items</h4>
+                        </div>
+                        <div class="sub-nav-wrapper">
+                            <ul class="flexCenter">
+                                <li class="dropdownContainer">
+                                    <span>aircraft management</span>
+                                    <ul class="dropdownMenu">
+                                        <li>
+                                            <a href="planes.html">agents</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">agents invoices</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">agents feedback</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">agents History</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">contact person's</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdownContainer">
+                                    <a href="#">operation</a>
+                                    <ul class="dropdownMenu">
+                                        <li>
+                                            <a href="requests.html">catring required</a>
+                                        </li>
+                                        <li>
+                                            <a href="orders.html">catring orders</a>
+                                        </li>
+                                        <li>
+                                            <a href="invoice-draft.html">invoice draft</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">invoices</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdownContainer">
+                                    <span>items management</span>
+                                    <ul class="dropdownMenu">
+                                        <li>
+                                            <a href="items.html">items</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">recepits</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">delivery order</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdownContainer">
+                                    <span>reportings</span>
+                                    <ul class="dropdownMenu">
+                                        <li>
+                                            <a href="#">report 1</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">report 2</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">report 3</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="user-section-wrapper flexCenter">
+                        <div class="user-data">
+                            <div class="user-img-wrap flexCenter">
+                                    <div class="not"><span class="n-badge">10</span>
+                                        <img class="notification" src="img/notification.png"></div>
+                                <img class="user-img" src="img/man-user.png">
+                                <span class="user-name">Mouhab Bassem</span>
+                                <img src="img/chevron-arrow-down.png" class="down-arrow">
+                            </div>
+                            <div class="user-setting-data">
+                                <ul>
+                                    <li>
+                                        <a href="#">Documentaion</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Support</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Preferences</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Logout</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="mobile-menu-icon flexCenter">
+                            <img src="assets/images/menu-icon.png">
+                        </div>
+                    </div>
+                </div>
+            </section>
+    <!--start accounting info-->
+    <section class="Add-container">
+        <!-- <div class="navigation">
+            <div class="saving">
+                <button type="button" class="save">save</button>
+                <button type="button" class="discard">discard</button>
+            </div>
+        </div> -->
+        <div class="nav-container">
+            <div class="data-title-wrapper breadcrumb-wrapper">
+                <!-- <h4>Inventory Items</h4>
+                            <h4>Items</h4> -->
+                <div class="breadcrumb">
+                    <a href="items.html" class="breadcrumb-title">items</a>
+                </div>
+                <div class="breadcrumb">
+                    <span class="breadcrumb-title">new</span>
+                </div>
+            </div>
+        </div>
+        <div class="account-info">
+            <div>
+                <div class="title">
+                    <h2>item detailes</h2>
+                    <div class="clear"></div>
+                </div>
+
+                <div class="form-container">
+
+                    <form name="account-info">
+                        <div class="info-con info-con-one">
+                           <div class="info-con-inner">
+                                <div class="Reference">
+                                        <label>
+                                                    code 
+                                                    </label>
+                                        <input type="text" name="item-code" placeholder="code">
+                                    </div>
+                                    <div class="street1">
+                                        <label>
+                                                    name
+                                                </label>
+                                        <input type="text" name="item-name" placeholder="name">
+                                    </div>
+                                   
+                           </div>
+                           <div class="info-con-inner">
+                                <div class="street2">
+                                        <label>
+                                                description
+                                            </label>
+                                        <input type="number" name="item-description" placeholder="description">
+                                    </div>
+                           </div>
+                            
+                        </div>
+                        <div class="info-con">
+                                <div class="info-con-inner">
+                                        <div class="date">
+                                                <label>
+                                                        size
+                                                    </label>
+                                                <input type="text" name="size" placeholder="size">
+                                            </div>
+                                </div>
+                                <div class="info-con-inner">
+                                     <div class="street2">
+                                             <label>
+                                                     note
+                                                 </label>
+                                             <input type="text" name="note" placeholder="note">
+                                         </div>
+                                </div>
+                                 
+                             </div>
+                             <div class="info-con">
+                                    <div class="info-con-inner">
+                                            <div class="date">
+                                                    <label>
+                                                            cairo price
+                                                        </label>
+                                                    <input type="text" name="cairo price" placeholder="cairo price">
+                                                </div>
+                                         <div class="Reference">
+                                                 <label>
+                                                        alex price 
+                                                             </label>
+                                                 <input type="text" name="alex price " placeholder="alex price ">
+                                             </div>
+                                             
+                                    </div>
+                                    <div class="info-con-inner">
+                                            <div class="street2">
+                                                    <label>
+                                                            sharm price
+                                                        </label>
+                                                    <input type="text" name="sharm price" placeholder="sharm price">
+                                                    </div>  
+                                                    <div class="street2">
+                                                            <label>
+                                                                    herghada price
+                                                                </label>
+                                                            <input type="text" name="herghada price" placeholder="herghada price">
+                                                            </div>  
+                                    </div>
+                                   
+                            </div>
+                                     
+                                 </div>
+                        <!-- <div class="infoTwo">
+                            <div class="destenation">
+                                <label>destenation</label>
+                                <input type="text" name="destenation" placeholder="destenation">
+                            </div>
+                            <div class="phone">
+                                <label>depature</label>
+                                <input type="time" name="depature" placeholder="depature">
+                            </div>
+                            <div class="mobile">
+                                <label>arrival</label>
+                                <input type="time" name="arrival" placeholder="arrival">
+                            </div>
+                            <div class="email">
+                                <label>aircraft by</label>
+                                <input type="text" name="aircraft-by" placeholder="aircraft by">
+                            </div>
+                            <div class="website">
+                                <label>operator</label>
+                                <input type="text" name="operator" placeholder="operator">
+                            </div>
+                            <div class="status">
+                                <label>status</label>
+                                <input type="text" name="flying-time" placeholder="flying time">
+                            </div>
+
+                        </div> -->
+                        <button type="submit" value="Save Feedbake" class="save-btn">Save</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <script src="js/all.min.js"></script>
+    <script src="js/jquery_v3.3.1.js"></script>
+    <script src="js/flatpickr.js"></script>
+    <script src="js/mainScript.js"></script>
+</body>
+
+</html>

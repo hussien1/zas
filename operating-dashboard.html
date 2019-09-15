@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>dashboard</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/plugins/fullcalendar/main.min.css">
+    <link rel="stylesheet" href="css/plugins/fullcalendar-daygrid/main.min.css">
+    <link rel="stylesheet" href="css/plugins/fullcalendar-timegrid/main.min.css">
+    <link rel="stylesheet" href="css/plugins/fullcalendar-bootstrap/main.min.css">
+    <link rel="stylesheet" href="css/plugins/adminlte.min.css">
+    <link rel="stylesheet" href="css/mainStyle.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/add-new.css">
+    <link rel="stylesheet" href="css/custome.css"> 
+</head>
+ <body>
+    <section class="top-nav-container mainBgColor">
+            <div class="top-nav-wrapper flexBetween">
+                <div class="left-nav-wrapper flexCenter">
+                    <div class="landingDashboard-icon flexCenter">
+                        <a href="index.html"><img src="img/logo.png"></a>
+                    </div>
+                    <div class="sub-nav-wrapper">
+                        <ul class="flexCenter">
+                            <li class="dropdownContainer">
+                                <span>aircraft management</span>
+                                <ul class="dropdownMenu">
+                                    <li>
+                                        <a href="planes.html">agents</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">agents invoices</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">agents feedback</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">agents History</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">contact person's</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdownContainer">
+                                <a href="#">operation</a>
+                                <ul class="dropdownMenu">
+                                    <li>
+                                        <a href="requests.html">catring required</a>
+                                    </li>
+                                    <li>
+                                        <a href="orders.html">catring orders</a>
+                                    </li>
+                                    <li>
+                                        <a href="invoice-draft.html">invoice draft</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">invoices</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdownContainer">
+                                <span>items management</span>
+                                <ul class="dropdownMenu">
+                                    <li>
+                                        <a href="items.html">items</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">recepits</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">delivery order</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdownContainer">
+                                <span>reportings</span>
+                                <ul class="dropdownMenu">
+                                    <li>
+                                        <a href="#">report 1</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">report 2</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">report 3</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="user-section-wrapper flexCenter">
+                    <div class="user-data">
+                            <div class="not">
+                                    <span class="n-badge">10</span>
+                                    <img class="notification" src="img/notification.png">
+                                    <div class="not-pop">aly add new item</div>
+                                </div>
+                        <div class="user-img-wrap flexCenter">
+                            <img class="user-img" src="img/man-user.png">
+                            <span class="user-name">Mouhab Bassem</span>
+                            <img src="img/chevron-arrow-down.png" class="down-arrow">
+                        </div>
+                        <div class="user-setting-data">
+                            <ul>
+                                <li>
+                                    <a href="#">Documentaion</a>
+                                </li>
+                                <li>
+                                    <a href="#">Support</a>
+                                </li>
+                                <li>
+                                    <a href="#">Preferences</a>
+                                </li>
+                                <li>
+                                    <a href="#">Logout</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mobile-menu-icon flexCenter">
+                        <img src="assets/images/menu-icon.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <Section class="dashboard-container">
+            <div class="header">
+                <div class="stat-item blue-db-bg">
+                    <h2>
+                        orders
+                    </h2>
+                    <span>
+                        1500
+                    </span>
+                </div>
+                <div class="stat-item green-db-bg">
+                    <h2>
+                        invoices
+                    </h2>
+                    <span>
+                        1500
+                    </span>
+                </div>
+                <div class="stat-item orange-db-bg">
+                    <h2>
+                        agents
+                    </h2>
+                    <span>
+                        1500
+                    </span>
+                </div>
+                <div class="stat-item red-db-bg">
+                    <h2>
+                        items
+                    </h2>
+                    <span>
+                        15000
+                    </span>
+                </div>
+            </div>
+            <div class="chart-cleander">
+                <div>
+
+                </div>
+            </div>
+            <!-- <div class="charts">
+                <div class="donates">
+
+                </div>
+                <div class="mab">
+
+                </div>
+            </div> -->
+
+        </Section>
+        <!--start cleander-->
+        <section class="content">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <div class="sticky-top mb-3">
+                        <div class="card">
+                          <div class="card-header">
+                            <h4 class="card-title">Draggable Events</h4>
+                          </div>
+                          <div class="card-body">
+                            <!-- the events -->
+                            <div id="external-events">
+                              <div class="external-event bg-success">Lunch</div>
+                              <div class="external-event bg-warning">Go home</div>
+                              <div class="external-event bg-info">Do homework</div>
+                              <div class="external-event bg-primary">Work on UI design</div>
+                              <div class="external-event bg-danger">Sleep tight</div>
+                              <div class="checkbox">
+                                <label for="drop-remove">
+                                  <input type="checkbox" id="drop-remove">
+                                  remove after drop
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- /.card-body -->
+                        </div>
+                        <!-- /.card -->
+                        <div class="card">
+                          <div class="card-header">
+                            <h3 class="card-title">Create Event</h3>
+                          </div>
+                          <div class="card-body">
+                            <div class="btn-group" style="width: 100%; margin-bottom: 10px;">
+                              <!--<button type="button" id="color-chooser-btn" class="btn btn-info btn-block dropdown-toggle" data-toggle="dropdown">Color <span class="caret"></span></button>-->
+                              <ul class="fc-color-picker" id="color-chooser">
+                                <li><a class="text-primary" href="#"><i class="fas fa-square"></i></a></li>
+                                <li><a class="text-warning" href="#"><i class="fas fa-square"></i></a></li>
+                                <li><a class="text-success" href="#"><i class="fas fa-square"></i></a></li>
+                                <li><a class="text-danger" href="#"><i class="fas fa-square"></i></a></li>
+                                <li><a class="text-muted" href="#"><i class="fas fa-square"></i></a></li>
+                              </ul>
+                            </div>
+                            <!-- /btn-group -->
+                            <div class="input-group">
+                              <input id="new-event" type="text" class="form-control" placeholder="Event Title">
+          
+                              <div class="input-group-append">
+                                <button id="add-new-event" type="button" class="btn btn-primary">Add</button>
+                              </div>
+                              <!-- /btn-group -->
+                            </div>
+                            <!-- /input-group -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /.col -->
+                    <div class="col-md-9">
+                      <div class="card card-primary">
+                        <div class="card-body p-0">
+                          <!-- THE CALENDAR -->
+                          <div id="calendar"></div>
+                        </div>
+                        <!-- /.card-body -->
+                      </div>
+                      <!-- /.card -->
+                    </div>
+                    <!-- /.col -->
+                  </div>
+                  <!-- /.row -->
+                </div><!-- /.container-fluid -->
+              </section>
+              <section class="charts-con">
+                    <div class="container-fluid">
+                            <div class="row">
+                                    <div class="col-md-6">
+                                            <div class="my-chart">
+                                                    <canvas id="doughnut-chart" width="1000" height="450"></canvas>
+                                              </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="my-sec-chart">
+                                                <img src="img/chart.jpg" alt="chart">
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>
+              </section>
+            
+            <script src="js/all.min.js"></script>
+            <script src="js/jquery_v3.3.1.js"></script>
+            <script src="js/bootstrap.bundle.js"></script>
+            <script src="js/jquery-ui.min.js"></script>
+            <script src="js/adminlte.min.js"></script>
+            <script src="js/demo.js"></script>
+            <script src="js/plugins/moment/moment.min.js"></script>
+            <script src="js/plugins/fullcalendar/main.min.js"></script>
+            <script src="js/plugins/fullcalendar-daygrid/main.min.js"></script>
+            <script src="js/plugins/fullcalendar-timegrid/main.min.js"></script>
+            <script src="js/plugins/fullcalendar-interaction/main.min.js"></script>  
+            <script src="js/plugins/chart.js/Chart.min.js"></script>
+            <script src="js/canvasjs.min.js"></script>
+            <script src="js/mainScript.js"></script>
+            <script src="js/customdash.js"></script>
+</body>
+
+</html>

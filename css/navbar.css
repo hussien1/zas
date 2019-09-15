@@ -1,0 +1,37 @@
+.sup-color{
+    color: #e0e0e0!important;
+}
+.sup-color:hover{
+    color: #fff!important
+}
+
+.sup-menu-container{
+    position: relative;
+}
+.sup-menu-container:hover .sup-menu{
+    display: block
+}
+.sup-menu{
+    position: absolute;
+    background-color: #216e42;
+    width: 150%;
+    padding-top: .5em;
+    display: none
+}
+.sup-menu li{
+    margin-right: 0;
+    padding: .5em 1.5em
+}
+.mobile-sup-menu li{
+    border: none!important
+
+}
+.mobile-sup-menu-container > a{
+    border-bottom: 1px solid #333940
+}
+.mobile-sup-menu-container:hover .mobile-sup-menu{
+    display: block
+}
+.mobile-sup-menu{
+    display: none
+}

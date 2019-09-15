@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>items</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/mainStyle.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/add-new.css">
+    <link rel="stylesheet" href="css/custome.css">
+</head>
+
+<body>
+        <section class="top-nav-container mainBgColor">
+                <div class="top-nav-wrapper flexBetween">
+                    <div class="left-nav-wrapper flexCenter">
+                        <div class="landingDashboard-icon flexCenter">
+                            <a href="index.html"><img src="img/logo.png"></a>
+                        </div>
+                        <div class="dymanic-services-name">
+                            <h4>items</h4>
+                        </div>
+                        <div class="sub-nav-wrapper">
+                            <ul class="flexCenter">
+                                <li class="dropdownContainer">
+                                    <span>aircraft management</span>
+                                    <ul class="dropdownMenu">
+                                        <li>
+                                            <a href="planes.html">agents</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">agents invoices</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">agents feedback</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">agents History</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">contact person's</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdownContainer">
+                                    <a href="#">operation</a>
+                                    <ul class="dropdownMenu">
+                                        <li>
+                                            <a href="requests.html">catring required</a>
+                                        </li>
+                                        <li>
+                                            <a href="orders.html">catring orders</a>
+                                        </li>
+                                        <li>
+                                            <a href="invoice-draft.html">invoice draft</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">invoices</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdownContainer">
+                                    <span>items management</span>
+                                    <ul class="dropdownMenu">
+                                        <li>
+                                            <a href="items.html">items</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">recepits</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">delivery order</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdownContainer">
+                                    <span>reportings</span>
+                                    <ul class="dropdownMenu">
+                                        <li>
+                                            <a href="#">report 1</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">report 2</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">report 3</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="user-section-wrapper flexCenter">
+                        <div class="user-data">
+                            <div class="user-img-wrap flexCenter">
+                                <div class="not"><span class="n-badge">10</span>
+                                    <img class="notification" src="img/notification.png"></div>
+                                <img class="user-img" src="img/man-user.png">
+                                <span class="user-name">Mouhab Bassem</span>
+                                <img src="img/chevron-arrow-down.png" class="down-arrow">
+                            </div>
+                            <div class="user-setting-data">
+                                <ul>
+                                    <li>
+                                        <a href="#">Documentaion</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Support</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Preferences</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Logout</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="mobile-menu-icon flexCenter">
+                            <img src="assets/images/menu-icon.png">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="vendor-container">
+                <div class="nav-container">
+                    <div class="data-title-wrapper breadcrumb-wrapper">
+                        <!-- <h4>Inventory Items</h4>
+                        <h4>Items</h4> -->
+                        <div class="breadcrumb">
+                            <span class="breadcrumb-title">items</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="table-container">
+                        <div class="actions">
+                            <div class="action-btn">
+                                <button>
+                                    <span><a href="addnew-items.html">add new</a> </span>
+                                </button>
+                            </div>
+                            <div class="action-btn">
+                                    <button>
+                                        <span>preview</span>
+                                    </button>
+                                </div>
+                                <div class="action-btn">
+                                        <button>
+                                            <span>
+                                            CSV
+                                            </span>
+                                        </button>
+                                    </div>
+                                    <div class="action-btn">
+                                            <button>
+                                               <span>
+                                                 PDF
+                                               </span>
+                                            </button>
+                                        </div>
+                                        <div class="action-btn">
+                                                <button>
+                                                    <span>duplicate</span>
+                                                </button>
+                                            </div>
+                                            <div class="action-btn">
+                                                <button>
+                                                    <span>show all</span>
+                                                </button>
+                                            </div>
+                        </div>
+                        <div class="table-of-content">
+                                <div class="navigation flexxx">
+                                    <div class="title">
+                                        <h4>    
+                                            all items
+                                        </h4>
+                                    </div>
+                                    <div class="left-side">
+                                        <input type="text" class="search" id="myInput" name="search" placeholder="Search...">
+                                    </div>
+                                </div>
+                                <table class="box-data-table">
+                                    <thead>
+                                        <tr>
+                                            <th>
+                                                <input type="checkbox" name="all">
+                                            </th>
+                                            <th>
+                                               code
+                                            </th>
+                                            <th>
+                                                name
+                                            </th>
+                                            <th>
+                                                description
+                                            </th>
+                                            <th>
+                                                size
+                                            </th>
+                                            <th style="border-right: 1px solid #ccc!important">
+                                                note
+                                            </th>
+                                            <th>
+                                               cairo price
+                                            </th>
+                                            <th>
+                                                   alex price
+                                            </th>
+                                            <th>
+                                                   sharm price
+                                            </th>
+                                            <th>
+                                                   herghada price
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="myTable">
+                                        <tr>
+                                            <td>
+                                                <input type="checkbox" name="one">
+                                            </td>
+                                            <td>
+            
+                                                004
+                                                <div class="item-action">
+                                                    <a href="addnew-items.html">edit</a>
+                                                    <a href="addnew-items.html">View</a>
+                                                    <a href="#" class="itemActionRed">delete</a>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                Cairo International Airport
+                                            </td>
+                                            <td>
+                                                505
+                                            </td>
+                                            <td>
+                                                a
+                                            </td>
+                                            <td style="border-right: 1px solid #ccc!important">
+                                                10/10/2020
+                                            </td>
+                                            <td>
+                                                rome
+                                            </td>
+                                            <td>
+                                                cairo
+                                            </td>
+                                            <td>
+                                                10/10/2020 10:10am
+                                            </td>
+                                            <td>
+                                                10/10/2020 10:10pm
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="checkbox" name="one">
+                                            </td>
+                                            <td>
+            
+                                                004
+                                                <div class="item-action">
+                                                        <a href="addnew-items.html">edit</a>
+                                                        <a href="addnew-items.html">View</a>
+                                                        <a href="#" class="itemActionRed">delete</a>
+                                                    </div>
+                                            </td>
+                                            <td>
+                                                Cairo International Airport
+                                            </td>
+                                            <td>
+                                                505
+                                            </td>
+                                            <td>
+                                                a
+                                            </td>
+                                            <td style="border-right: 1px solid #ccc!important">
+                                                10/10/2020
+                                            </td>
+                                            <td>
+                                                rome
+                                            </td>
+                                            <td>
+                                                cairo
+                                            </td>
+                                            <td>
+                                                10/10/2020 10:10am
+                                            </td>
+                                            <td>
+                                                10/10/2020 10:10pm
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="checkbox" name="one">
+                                            </td>
+                                            <td>
+            
+                                                004
+                                                <div class="item-action">
+                                                        <a href="addnew-items.html">edit</a>
+                                                        <a href="addnew-items.html">View</a>
+                                                        <a href="#" class="itemActionRed">delete</a>
+                                                    </div>
+                                            </td>
+                                            <td>
+                                                Cairo International Airport
+                                            </td>
+                                            <td>
+                                                505
+                                            </td>
+                                            <td>
+                                                a
+                                            </td>
+                                            <td style="border-right: 1px solid #ccc!important">
+                                                10/10/2020
+                                            </td>
+                                            <td>
+                                                rome
+                                            </td>
+                                            <td>
+                                                cairo
+                                            </td>
+                                            <td>
+                                                10/10/2020 10:10am
+                                            </td>
+                                            <td>
+                                                10/10/2020 10:10pm
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                </div>
+            </section>
+            <script src="js/all.min.js"></script>
+            <script src="js/jquery_v3.3.1.js"></script>
+            <script src="js/mainScript.js"></script>
+</body>
+
+</html>
